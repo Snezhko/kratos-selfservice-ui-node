@@ -85,7 +85,7 @@ if (process.env.NODE_ENV === 'stub') {
   app.get('/error', errorHandler)
   app.get('/settings', protect, settingsHandler)
   app.get('/verify', verifyHandler)
-  app.get('/recovery', recoveryHandler)
+  // app.get('/recovery', recoveryHandler)
 }
 
 app.get('/health', (_: Request, res: Response) => res.send('ok'))
