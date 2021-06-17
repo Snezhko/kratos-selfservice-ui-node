@@ -1,4 +1,6 @@
-FROM node:16.0-alpine
+FROM node:16.3-alpine3.13
+
+RUN npm install -g npm@7.18.1
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
@@ -20,8 +22,10 @@ RUN if [ "$LINK" == "true" ]; then (cd ./contrib/sdk/generated; rm -rf node_modu
 
 RUN npm run build
 
+RUN chown ory: ./start_ui.sh
+
 USER 10000
 
-ENTRYPOINT npm run serve
+ENTRYPOINT ./start_ui.sh
 
-EXPOSE 3000
+EXPOSE 4455

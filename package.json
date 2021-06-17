@@ -1,6 +1,6 @@
 {
-  "name": "kratos-selfservice-ui-node",
-  "version": "0.0.1",
+  "name": "kratos-selfservice-ui-node-ia",
+  "version": "0.0.2",
   "description": "A reference implementation of a selfservice UI for ORY Kratos in node.js",
   "main": "src/index.ts",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ory/kratos-selfservice-ui-node.git"
+    "url": "git+https://github.com/Snezhko/kratos-selfservice-ui-node.git"
   },
   "author": "Aeneas Rekkas",
   "license": "Apache-2.0",
