@@ -1,9 +1,12 @@
 export SECURITY_MODE=cookie
 export KRATOS_BROWSER_URL=https://testweb.org.by/1/
 export KRATOS_PUBLIC_URL=https://testweb.org.by/1/
-export KRATOS_ADMIN_URL=http://127.0.0.1:4434/
+export KRATOS_ADMIN_URL=https://testweb.org.by/10/
 export PORT=4455
 export BASE_URL=https://testweb.org.by/0/
+
+export HYDRA_ADMIN_URL=https://testweb.org.by/20/
+
 # export TLS_CERT_PATH='../../testweb/ssl/testweb.crt'
 # export TLS_KEY_PATH='../../testweb/ssl/testweb.key'
 
