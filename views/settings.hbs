@@ -13,12 +13,6 @@
       <p>Profile</p>
       {{> ui_nodes nodes=ui.nodes only="profile" }}
 
-      {{#if (onlyNodes ui.nodes "password")}}
-        <hr class="divider">
-        <p>Password</p>
-        {{> ui_nodes nodes=ui.nodes only="password" }}
-      {{/if}}
-
       {{#if (onlyNodes ui.nodes "oidc")}}
         <hr class="divider">
         <p>Social Sign In</p>
