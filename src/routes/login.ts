@@ -49,7 +49,7 @@ export default (
       }
       // removed password elements
       // password is enabled in kratos, temporarily, but should be hidden in UI, until M2M kratos will be enabled
-      flow.ui.nodes.splice(5, 7);
+      flow.ui.nodes.splice(3, 7);
       // Render the data using a view (e.g. Jade Template):
       res.render('login', flow);
     })
